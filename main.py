@@ -7,7 +7,7 @@ image = cv2.imread('assets/images/chess_board.jpg')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 edges = cv2.Canny(gray, 100, 170, apertureSize = 3)
 
-cv2.imshow("edges", edges)
+cv2.imshow("Edges", edges)
 cv2.waitKey(0)
 
 # Run HoughLines using a rho accuracy of 1 pixel
