@@ -9,7 +9,7 @@ This project contains a basic python script to run opencv-python with Hough Line
 ## How it work's
 A line can be represented as y = mx+c or in parametric form, as rho = x cos(theta) + y sin(theta) where rho is the perpendicular distance from origin to the line, and theta is the angle formed by this perpendicular line and horizontal axis measured in counter-clockwise:
 
-![CoordinateSystem](.documentation/ CoordinateSystem.PNG?raw=true "CoordinateSystem")
+![CoordinateSystem](.documentation/CoordinateSystem.PNG?raw=true "CoordinateSystem")
 
 ## How to setup
 - Install opencv-python
